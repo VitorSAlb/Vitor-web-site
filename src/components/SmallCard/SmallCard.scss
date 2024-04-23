@@ -1,0 +1,25 @@
+.section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.container-smallcard {
+    border-radius: 20px;
+    height: 100px;
+    width: 300px; /* Largura máxima ajustada para 90% da largura da tela */
+    background-color: #667859;
+    margin: 10px; /* Adiciona margem entre os cards */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 12px;
+
+    .text-section {
+        width: 60%;
+        padding: 0 10px; /* Adiciona padding interno para o texto */
+    }
+}

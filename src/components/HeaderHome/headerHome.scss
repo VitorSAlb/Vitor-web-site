@@ -1,0 +1,98 @@
+$color-bg: #3B3936;
+$color-atenction: #BD2A2E;
+$color-text: #B2BEBF;
+$color-grnl: #889C9B;
+$color-grnb: #667859;
+
+.meio {
+    justify-content: center;
+    align-items: center;
+
+    .headerHome {
+        // border: 1px solid red;
+        justify-self: center;
+        align-self: center;
+    
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: fit-content;
+    
+        align-items: start;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: $color-grnb;
+        }
+
+        
+        nav {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            hr {    
+                border: 1px solid $color-grnb;
+                margin: 2rem 0 0;
+                width: 100%;
+            }
+
+            .nav-info {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    margin-right: 2rem;
+                }
+                
+    
+                ul {
+    
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+    
+                    a {
+                        text-decoration: none;
+                    
+                        li {
+                          color: $color-text;
+                          font-size: 18px;
+                          list-style: none;
+                          position: relative;
+                    
+                          &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0; 
+                            height: 2px;
+                            background-color: $color-grnb; 
+                            transition: width 0.4s ease; 
+                          }
+                    
+                          &:hover::after {
+                            width: 100%;
+                            color: $color-grnb;
+                          }
+                        }
+                      }
+                }
+            }
+            
+        }
+    
+    }
+
+}
+

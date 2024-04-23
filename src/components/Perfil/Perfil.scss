@@ -1,0 +1,29 @@
+.container-perfil {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    justify-content: space-between;
+    // width: 100%;
+
+    .img-section {
+        background-color: beige;
+        height: 400px;
+        width: 300px;
+
+        
+        img {
+            border: 1px solid #667859;
+            height: 400px;
+            width: 300px;
+        }
+    }
+
+    .text-section {
+        width: 70%;
+
+        p {
+            text-align: justify;
+            font-size: 20px;
+        }
+    }
+}
