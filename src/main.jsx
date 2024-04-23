@@ -7,6 +7,7 @@ import './styles/reset.css'
 import './styles/global.scss'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { ErrorBoundary } from "react-error-boundary";
 import Teste from './pages/teste.jsx'
 import About from './pages/About.jsx'
 import Education from './pages/Education.jsx'

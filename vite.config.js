@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: "/Vitor-web-site",
+  base: "/",
 })
