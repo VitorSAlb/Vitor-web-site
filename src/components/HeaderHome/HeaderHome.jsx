@@ -22,8 +22,8 @@ function HeaderHome() {
             <span className="material-symbols-outlined">navigate_next</span>
 
             <ul>
-              <Link to={'/teste'}><a><li>Home</li></a></Link>
-              <Link to={'/about'}><a href="#"><li>About</li></a></Link>
+              <Link to={'/Vitor-web-site/teste'}><a><li>Home</li></a></Link>
+              <Link to={'/Vitor-web-site/about'}><a href="#"><li>About</li></a></Link>
               <Link to={'/'}><a href="#"><li>Education</li></a></Link>
               <Link to={'/'}><a href="#"><li>Experience</li></a></Link>
               <Link to={'/'}><a href="#"><li>Projects</li></a></Link>
