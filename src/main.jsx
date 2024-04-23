@@ -14,19 +14,19 @@ import Education from './pages/Education.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Vitor-web-site",
     element: <App />,
   },
   {
-    path: "/about",
+    path: "/Vitor-web-site/about",
     element: <About />,
   },
   {
-    path: "/education",
+    path: "/Vitor-web-site/education",
     element: <Education />,
   },
   {
-    path: "/teste",
+    path: "/Vitor-web-site/teste",
     element: <Teste />,
   },
 ])
